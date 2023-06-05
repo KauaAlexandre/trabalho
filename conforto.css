@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+header{
+    position: relative;
+    height: 120px;
+    border-bottom: 2px solid black;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-size-adjust: auto;
+    font-family: impact;
+    
+}
+
+    
+
+.texto{
+    text-align: center;
+    position: relative;
+    color: #000000;
+    text-decoration: dashed;
+}
+.voltar{
+    position: relative;
+    top: 45px;
+    left: 30%;
+    font-size: 25px;
+}
+.voltar a{
+    color: #079cff;
+    text-decoration: none;
+}
+.voltar a:hover{
+    color: #ff0000;
+}
+.footer{
+    position: relative;
+    top:60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.absolute img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}

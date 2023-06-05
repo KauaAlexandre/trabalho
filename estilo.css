@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+.absolute{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    position: relative;
+    height: 120px;
+    border-bottom: 2px solid rgb(192, 170, 73);
+    color: rgb(206, 145, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-size-adjust: auto;
+    font-family: impact;
+    left: 10%;
+    
+}
+.footer{
+    position: relative;
+    top:400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.login {
+    
+    text-align: right;
+    font-size: 22px;
+    
+}
+.login a{
+    color: #f78121;
+    text-decoration: none;
+}
+.login a:hover{
+    color: #b4841b;
+}
+
+
+.cards{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    top: 20px;
+    display: flex;
+        
+        justify-content: space-between;
+    
+    }
+    
+    header{
+        position: relative;
+        height: 120px;
+        border-bottom: 2px solid black;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vw;
+        font-size-adjust: auto;
+        font-family: impact;
+    }
+    
+    
+
+.card1{
+    background-color: rgb(228, 167, 0);
+}
+.card2{
+    background-color: rgb(197, 161, 61);
+}
+.card3{
+    background-color: rgb(175, 85, 25);
+}
+
+
+.card1, .card2, .card3{
+    position:relative;
+    width: 25%;
+    height: 200px;
+    border-radius: 8px;
+    transition: all 0.3s ease-out;
+}
+
+
+.card1:hover, .card2:hover, .card3:hover{
+    transform: translateY(-20px);
+}
+
+.item1{
+    position: absolute;
+    color:azure;
+    top: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 3vw;
+    font-size-adjust: auto;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.item2{
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    text-align: center;
+}
+
+.item2 a{
+    color: azure;
+    text-decoration: none;
+}
+
+.item2 a:hover{
+    color: rgb(173, 173, 32);
+}
+
+.item3{
+    position: absolute;
+    width:30%;
+    height: 60px;
+    bottom: 5px;
+    right:5px;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.login{
+    position: relative;
+    top: 45px;
+    left: 34%;
+}
+.audio{
+    position: relative;
+    top: 5%;
+    right: 40%;
+}
+

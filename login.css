@@ -1,0 +1,31 @@
+body{
+    background:linear-gradient(to right, black, aqua) ;
+display: flex;
+justify-content: center;
+}
+h2{
+    color: #000000;
+}
+form{
+    color: #0e3063;
+    position: relative;
+}
+input{
+    color: #0e3063;
+    background-color: blanchedalmond;
+}
+.link tr:hover{
+    color: rgb(175, 30, 30);
+    
+}
+.footer{
+    position: relative;
+    top:430px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    height: 100px;
+    width: 1500px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
